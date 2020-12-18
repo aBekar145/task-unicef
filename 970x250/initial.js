@@ -45,7 +45,7 @@ window.onload = function() {
             textTop = select('#textTop'),
             imagesCont = select('#images'),
             images = [],
-            imagesSrc = ['image-1.jpg', 'image-2.jpg'],
+            imagesSrc = ['image-1.jpg', 'image-2.jpg', 'image-3.jpg'],
 
 
             tl = gsap.timeline();

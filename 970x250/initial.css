@@ -49,8 +49,8 @@ div {
 
 #logo {
     cursor: pointer;
-    width: 62px;
-    height: 62px;
+    width: 66px;
+    height: 66px;
     top: 15px;
     left: 15px;
 }
@@ -100,7 +100,8 @@ div {
     width: inherit;
     height: inherit;
     font-family: "DINNextSlabPro-Medium", serif;
-    font-size: 22px;
+    font-size: 24px;
+    line-height: 26px;
     color: #fff;
     font-weight: bold;
 }
@@ -113,6 +114,7 @@ div {
 
 #text div.last {
     top: 0;
+    line-height: 28px;
 }
 
 .blue, #textTop {
