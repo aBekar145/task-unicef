@@ -1,0 +1,134 @@
+@font-face {
+    font-family: "DINNextSlabPro-Medium";
+    src: url("DINNextSlabPro-Medium.woff2")  format("woff2");
+}
+/*************** MAIN ELEMENTS ***************/
+
+body {
+    margin:0;
+    padding:0;
+}
+
+div {
+    position:absolute;
+}
+
+#wrapper {
+    display:block;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 250px;
+    background: #161616;
+	overflow: hidden;
+}
+
+#wrect {
+    width: inherit;
+    height: inherit;
+    background: #161616;
+    pointer-events: none;
+}
+
+#border {
+    border: 1px solid #9a9a9a;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: inherit;
+    height: inherit;
+    pointer-events: none;
+}
+
+#bgexit {
+    width: inherit;
+    height: inherit;
+    cursor: pointer;
+}
+
+/******************** LOGO ********************/
+
+#logo {
+    cursor: pointer;
+    width: 52px;
+    height: 52px;
+    top: 15px;
+    left: 15px;
+}
+
+/******************** BUTTON ********************/
+
+#cta {
+    width: 147px;
+    height: 40px;
+    bottom: 15px;
+    left: 15px;
+    cursor: pointer;
+}
+#ctaInner {
+    width: 147px;
+    height: 40px;
+    bottom: 0;
+    left: 0;
+    line-height: 40px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 10px;
+    background: rgb(0, 174, 239);
+    color: rgb(255, 255, 255);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#ctaInner:hover {
+    color: #00acec;
+    background: #fff;;
+}
+
+/********************** TEXT **********************/
+
+#text {
+    left: 15px;
+    top: 92px;
+    width: inherit;
+    height: inherit;
+    font-family: "DINNextSlabPro-Medium", serif;
+    font-size: 13px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.headline {
+    width: inherit;
+    height: inherit;
+    top: 27px;
+}
+
+#text div.last {
+    top: 0;
+}
+
+.blue, #textTop {
+    color: #00AEEF;
+}
+
+/********************** IMAGE **********************/
+
+#images {
+    width: inherit;
+    height: inherit;
+    top: 0;
+    left: 0;
+}
+
+.img {
+    width: inherit;
+    height: inherit;
+}
