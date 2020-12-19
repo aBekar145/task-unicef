@@ -1,0 +1,163 @@
+@font-face {
+    font-family: "Whitney-Bold";
+    src: url("fonts/Whitney-Bold.woff2")  format("woff2");
+}
+
+@font-face {
+    font-family: "Whitney-Book";
+    src: url("fonts/Whitney-Book.woff2")  format("woff2");
+}
+/*************** MAIN ELEMENTS ***************/
+
+body {
+    margin:0;
+    padding:0;
+}
+
+div {
+    position:absolute;
+}
+
+#wrapper {
+    display:block;
+    top: 0;
+    left: 0;
+    width: 336px;
+    height: 280px;
+    background: #161616;
+	overflow: hidden;
+}
+
+#wrect {
+    width: inherit;
+    height: inherit;
+    background: #161616;
+    pointer-events: none;
+}
+
+#border {
+    border: 1px solid #9a9a9a;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: inherit;
+    height: inherit;
+    pointer-events: none;
+}
+
+#bgexit {
+    width: inherit;
+    height: inherit;
+    cursor: pointer;
+}
+
+/******************** LOGO ********************/
+
+#logo {
+    cursor: pointer;
+    width: 102px;
+    height: 32px;
+    top: 15px;
+    right: 10px;
+}
+
+/******************** BUTTON ********************/
+
+#cta {
+    width: 96px;
+    height: 26px;
+    bottom: 42px;
+    right: 22px;
+
+
+}
+#ctaInner {
+    width: 80px;
+    height: 26px;
+    background-color: #ff9800;
+    color: #282828;
+    font-family: "Whitney-Bold", serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+}
+
+.icon {
+    top: 0;
+    right: 0;
+    width: 16px;
+    height: 26px;
+    background-color: #ff6c00;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.icon:hover {
+    background: #f98c3d;
+}
+
+
+#ctaInner:hover {
+    color: #fff;
+    background: #f98c3d;
+}
+
+/********************** TEXT **********************/
+
+#text {
+    left: 25px;
+    top: 150px;
+    width: inherit;
+    height: inherit;
+    font-family: "Whitney-Book", serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.headline {
+    width: inherit;
+    height: inherit;
+    top: 40px;
+}
+
+#text div.last {
+    top: 0;
+    line-height: 18px;
+}
+
+.white, #textTop {
+    font-family: "Whitney-Bold", serif;
+    font-size: 26px;
+    line-height: 26px;
+}
+
+.yelow {
+    color: #ff9800;
+}
+
+/********************** IMAGE **********************/
+
+#images {
+    width: inherit;
+    height: inherit;
+    top: 0;
+    left: 0;
+}
+
+.img {
+    width: inherit;
+    height: inherit;
+}
