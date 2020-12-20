@@ -36,6 +36,7 @@ window.onload = function() {
                 return document.querySelectorAll(s);
             },
             wrapper = select('#wrapper'),
+            logo = select('#logo'),
             cta = select('#cta'),
             wrect = select('#wrect'),
             headlines = selectAll('.headline'),
@@ -129,9 +130,10 @@ window.onload = function() {
 
 
             // frame1
+            .from(logo, {duration:0.6, x:"-=170", ease:"back.In"}, "<0.5")
             .from(splitTextTop.chars, {duration:0.7, stagger:0.03, x:"+=20", alpha:0, ease:"power3"}, "<0.5")
-            .fadeIn(headlines[0], {duration:0.8, x:"+=120"}, ">-0.5")
-            .from(cta, {duration:0.4, x:"-=170", ease:"back.In"}, "<0.5")
+            .fadeIn(headlines[0], {duration:0.9, x:"+=120"}, ">-0.5")
+            .from(cta, {duration:0.4, x:"+=170", ease:"back.In"}, "<0.5")
 
             // frame2
             // .fadeOut(headlines[0], ">3.5")
