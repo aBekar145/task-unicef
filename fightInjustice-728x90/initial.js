@@ -133,10 +133,9 @@ window.onload = function() {
             // frame1
             .from(logo, {duration:0.9, y:"-=170", ease:"back.In"}, ">0.5")
             .from(cta, {duration:0.9, y:"+=170", ease:"back.In"}, "<0.5")
-
             .from(splitTextTop.chars, {duration:0.7, stagger:0.03, x:"+=20", alpha:0, ease:"power3"}, "<0.5")
             .from(headlines[0], {duration:0.9, y:"+=120"}, "<0.5")
-            .from(headlineMarker, {duration:2, stagger:0.03, x:"+=20", alpha:0, ease:"power1"}, "<0.5")
+            .to(headlineMarker, {duration: 6, color:"#ff9800", scale:2, stagger: 0.1}, "<0.5")
 
 
 
